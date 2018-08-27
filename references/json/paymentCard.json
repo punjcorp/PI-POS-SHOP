@@ -1,0 +1,8 @@
+{"paymentCard" : {
+    "cardId": null,
+    "name": null,
+    "cardNo": null,
+    "expiryDate": null,
+    "cvvNo": null,
+    "shippingAddress": {"Address" :{}}
+}}

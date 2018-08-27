@@ -1,0 +1,43 @@
+{
+    "orderLineItem": {
+        "orderId": {
+            "OnlineOrderId": {}
+        },
+        "itemId": null,
+        "itemName": null,
+        "qty": null,
+        "grossQty": null,
+        "unitPrice": null,
+        "extendedAmount": null,
+        "taxAmount": null,
+        "suggestedPrice": null,
+        "maxRetailPrice": null,
+        "returnFlag": null,
+        "status": null,
+        "netAmount": null,
+        "grossAmount": null,
+        "itemTotal": null,
+        "price": null,
+        "returnedQty": null,
+        "upcNo": null,
+        "txnType": null,
+        "invAction": null,
+        "orgOrderId": {
+            "OnlineOrderId": {}
+        },
+        "returnReason": null,
+        "returnComment": null,
+        "returnTypeCode": null,
+        "baseUnitPrice": null,
+        "baseExtendedPrice": null,
+        "newDescription": null,
+        "itemDesc": null,
+        "createdBy": null,
+        "createdDate": null,
+        "modifiedBy": null,
+        "modifiedDate": null,
+        "discount": null,
+        "discountPct": null,
+        "orderTaxLineItems": []
+    }
+}
