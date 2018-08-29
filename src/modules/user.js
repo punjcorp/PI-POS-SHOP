@@ -1,9 +1,12 @@
-﻿export const ADD_USER = 'user/ADD_USER'
+﻿import $ from 'jquery'
+export const ADD_USER = 'user/ADD_USER'
 export const USER_BEING_UPDATED = 'user/UserBeingUpdated'
 export const CLEAR_USER = 'user/ClearUser'
+export const LOAD_USER = 'user/loadUser'
+
 const initialState = {
-    firstName: 'Rinesh',
-    lastName: 'Kumar'
+    firstName: 'undefined',
+    lastName: 'undefined'
 }
 
 export default (state = initialState, action) => {
@@ -26,6 +29,15 @@ export default (state = initialState, action) => {
                 lastName: ""
             }
         }
+        case LOAD_USER:
+            $.get("../MockData/UserDetails.json")
+                .done(function (data) {
+                    alert("Data Loaded: " + data);
+                });
+            return {
+                ...state
+            }
+            
         default:
             return state
     }

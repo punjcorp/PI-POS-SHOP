@@ -4,6 +4,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>ReactRedux</Name>
     <RootNamespace>ReactRedux</RootNamespace>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -40,6 +41,9 @@
     <Content Include="src\index.css" />
     <Content Include="src\index.txt" />
     <Content Include="src\logo.svg" />
+    <Content Include="src\MockData\UserDetails.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="src\store.js.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +55,7 @@
     <Folder Include="src\containers\home\" />
     <Folder Include="src\containers\UserManagement\" />
     <Folder Include="src\modules\" />
+    <Folder Include="src\MockData\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\App.js" />
