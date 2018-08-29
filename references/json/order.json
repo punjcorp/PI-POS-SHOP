@@ -1,0 +1,32 @@
+{
+    "onlineOrder": {
+        "orderHeader": {
+            "orderId": {
+                "OnlineOrderId": {}
+            },
+            "txnType": null,
+            "status": null,
+            "startTime": null,
+            "endTime": null,
+            "postVoidFlag": null,
+            "cancelReason": null,
+            "sessionId": null,
+            "createdBy": null,
+            "createdDate": null,
+            "modifiedBy": null,
+            "modifiedDate": null,
+            "subTotalAmt": null,
+            "totalDiscountAmt": null,
+            "totalSGSTTaxAmt": null,
+            "totalCGSTTaxAmt": null,
+            "totalIGSTTaxAmt": null,
+            "totalTaxAmt": null,
+            "totalDueAmt": null
+        },
+        "orderLineItems": [],
+        "orderTenderLineItems": [],
+        "customer": {
+            "User": {}
+        }
+    }
+}

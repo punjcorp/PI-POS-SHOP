@@ -1,0 +1,7 @@
+{
+    "userRole": {
+        "role": {"Role" :{}},
+        "user": {"User" :{}},
+        "location": {"Location" :{}}
+    }
+}

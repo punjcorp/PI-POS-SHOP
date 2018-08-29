@@ -1,0 +1,15 @@
+{
+    "address" : {
+        "addressId": null,
+        "addressType": null, // Home, Work
+        "primary": null,
+        "address1": null,
+        "address2": null,
+        "landmark": null,
+        "city": null,
+        "district": null,
+        "state": null,
+        "country": null,
+        "pincode": null
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "orderTaxLineItem": {
+        "orderId": {
+            "OnlineOrderId": {}
+        },
+        "seqNo": null,
+        "itemId": null,
+        "taxGroupId": null,
+        "taxRuleRateId": null,
+        "totalTaxAmt": null,
+        "totalTaxableAmt": null,
+        "totalTaxExemptAmt": null,
+        "taxOverrideAmt": null,
+        "taxOverrideRate": null,
+        "taxOverrideFlag": null,
+        "taxOverrideReason": null,
+        "voidFlag": null,
+        "taxRuleRate": null,
+        "taxRuleAmt": null,
+        "orgTaxableAmt": null,
+        "orgTaxGroupId": null,
+        "createdBy": null,
+        "createdDate": null
+    }
+}

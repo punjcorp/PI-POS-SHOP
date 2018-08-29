@@ -1,0 +1,23 @@
+{
+  "user": {
+    "username": null,
+    "firstName": null,
+    "lastName": null,
+    "status": null,
+    "email": null,
+    "phone1": null,
+    "phone2": null,
+    "photoURL": null,
+    "photoType": null,
+    "photoData": null,
+    "loginCount": null,
+    "createdBy": null,
+    "createdDate": null,
+    "modifiedBy": null,
+    "modifiedDate": null,
+    "roles": [],
+    "passwords": [],
+    "addresses": [],
+    "paymentCards": []
+  }
+}

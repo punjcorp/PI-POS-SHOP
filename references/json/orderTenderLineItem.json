@@ -1,0 +1,18 @@
+{
+    "orderTenderLineItem": {
+        "orderId": {
+            "OnlineOrderId": {}
+        },
+        "tenderId": null,
+        "seqNo": null,
+        "name": null,
+        "typeCode": null,
+        "actionCode": null,
+        "changeFlag": null,
+        "amount": null,
+        "foreignAmount": null,
+        "exchangeRate": null,
+        "createdBy": null,
+        "createdDate": null
+    }
+}

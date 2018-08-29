@@ -1,0 +1,13 @@
+{
+    "location" : {
+        "locationId": null,
+        "locationType": null,
+        "name": null,
+        "phone1": null,
+        "phone2": null,
+        "manager": null,
+        "managerEmail": null,
+        "gstNo": null,
+        "address": {"Address" :{}}
+    }
+}

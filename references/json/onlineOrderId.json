@@ -1,0 +1,9 @@
+{
+    "onlineOrderId": {
+        "locationId": null,
+        "registerId": null,
+        "businessDate": null,
+        "txnNo": null,
+        "uniqueTxnNo": null, //format is locationId+registerId+BusinessDate+txnNo
+    }
+}
